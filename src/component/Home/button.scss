@@ -1,0 +1,31 @@
+%a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #ed0000;
+    color: white;
+    padding: .875rem 2.375rem;
+    border: 1px solid #ed0000;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+        background-color: rgba(0,0,0,0);
+        border-color:white ;
+        span{
+            transform: translateX(-8px);
+        }
+    }
+    span{
+        display: inline-block;
+        font-size: 13px;
+        margin-right: 5px;
+        transition: all 0.3s ease;
+    }
+    @media screen and (max-width: 1024px){
+        padding: 0.875rem 1.375rem;
+        font-size: 15px;
+    }
+    @media screen and (min-width:320px) and (max-width:480px) {
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+}

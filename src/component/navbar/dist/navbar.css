@@ -1,0 +1,134 @@
+.navbar {
+  position: fixed !important;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0 !important;
+  z-index: 9999999;
+}
+.navbar .navbar-brand {
+  width: 10%;
+  margin-right: 0;
+  position: relative;
+  padding: 0px;
+}
+@media screen and (max-width: 768px) {
+  .navbar .navbar-brand {
+    width: 15%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar .navbar-brand {
+    width: 30%;
+  }
+}
+.navbar .navbar-brand::before {
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  background: rgba(255, 0, 0, 0.6);
+  left: 35px;
+  top: 0;
+  z-index: -1;
+  transform: skewX(-30deg);
+  transition: all 0.25s ease;
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .navbar .navbar-brand::before {
+    left: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .navbar .navbar-brand::before {
+    left: 48px;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .navbar .navbar-brand::before {
+    left: 100px;
+  }
+}
+.navbar .navbar-brand a {
+  display: inline-block;
+  width: 100%;
+  padding-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: "Lalezar", cursive;
+}
+@media screen and (max-width: 768px) {
+  .navbar .navbar-brand a {
+    padding-right: 0px;
+  }
+}
+.navbar .collapse a {
+  color: white !important;
+  font-size: 18px;
+  margin: 0px 20px;
+}
+@media screen and (max-width: 480px) {
+  .navbar {
+    position: relative !important;
+    background-color: black;
+  }
+}
+
+.logo {
+  width: 70%;
+}
+.logo img {
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .logo img {
+    width: 70%;
+  }
+}
+.logo p {
+  margin: 0;
+  font-family: "Reem Kufi", sans-serif;
+}
+.logo p span {
+  color: black;
+  animation: rotate 6s linear infinite;
+  margin-left: 5px;
+  font-size: 26px;
+  display: inline-block;
+}
+@media screen and (max-width: 768px) {
+  .logo p span {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo p {
+    font-size: 12px !important;
+  }
+}
+.logo p:last-of-type {
+  font-size: 25px;
+}
+@media screen and (max-width: 1024px) {
+  .logo p:last-of-type {
+    font-size: 20px !important;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .logo {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 1440px) and (min-width: 1025px) {
+  .logo {
+    width: 60%;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

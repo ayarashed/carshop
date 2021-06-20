@@ -1,0 +1,36 @@
+.test-car__image img {
+  width: 100%;
+}
+
+.test-car__received {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 20px;
+}
+.test-car__received span {
+  font-size: 14px;
+  color: #92999F;
+}
+.test-car__received h1 {
+  margin: 0px 0px 19px;
+}
+.test-car__received p {
+  color: #92999F;
+}
+.test-car__received button {
+  text-decoration: none;
+  display: inline-block;
+  background-color: red;
+  color: white;
+  padding: 0.875rem 2.375rem !important;
+  border: 1px solid red;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: 0 !important;
+}
+.test-car__received button:hover {
+  background-color: rgba(0, 0, 0, 0);
+  color: red;
+}

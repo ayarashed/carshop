@@ -1,0 +1,39 @@
+.btn__background {
+  background-color: red !important;
+  color: white !important;
+  border-color: white !important;
+  padding: 10px 30px !important;
+  transition: all 0.3s ease-in-out !important;
+}
+.btn__background:hover {
+  background-color: white !important;
+  border-color: red !important;
+  color: red !important;
+}
+
+.modal {
+  z-index: 10000000000000002000000 !important;
+}
+.modal ul li span {
+  margin-left: 10px;
+  color: red;
+  font-size: 20px;
+}
+.modal ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+}
+.modal .modal-header {
+  border: none;
+}
+.modal .modal-header .close {
+  display: none;
+}
+.modal .modal-footer {
+  border: none;
+}
+
+.modal-backdrop {
+  z-index: 1000000000000000100 !important;
+}

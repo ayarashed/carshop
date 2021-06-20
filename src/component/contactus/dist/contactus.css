@@ -1,0 +1,73 @@
+.contact header {
+  position: relative;
+}
+.contact header .header__img img {
+  width: 100%;
+}
+.contact .contact-information {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  z-index: 9999;
+  padding: 20px 40px;
+  background-color: red;
+  border-radius: 3px;
+  color: white;
+  width: 70%;
+}
+.contact .contact-information ul li {
+  margin: 10px 0px;
+}
+.contact .contact-information a {
+  text-decoration: none;
+  color: white;
+}
+.contact .contact-information .map {
+  width: 100%;
+  border-radius: 2px;
+}
+.contact .contact-information .map iframe {
+  width: 100%;
+  border-radius: 2px;
+}
+@media screen and (max-width: 1024px) {
+  .contact .contact-information {
+    bottom: -20%;
+    padding: 5px 24px;
+    transform: translate(-50%, 20%);
+    width: 70%;
+  }
+  .contact .contact-information ul {
+    font-size: 15px;
+  }
+}
+.contact .form-to-contact {
+  margin: 130px 0px 60px 0px;
+}
+.contact .form-to-contact h3 {
+  color: #92999F;
+  margin: 20px 0px;
+}
+@media screen and (max-width: 1024px) {
+  .contact .form-to-contact {
+    margin: 150px 0px 60px 0px;
+  }
+}
+.contact .form-to-contact label {
+  color: #92999F;
+}
+.contact .form-to-contact input, .contact .form-to-contact textarea, .contact .form-to-contact select {
+  border: 1px solid #92999F;
+  color: #82878c;
+}
+@media screen and (max-width: 480px) {
+  .contact .form-to-contact {
+    margin-top: 60px;
+  }
+}
+.contact .form-to-contact button:hover {
+  background-color: white;
+  border-color: red;
+  color: red;
+}

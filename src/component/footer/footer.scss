@@ -1,0 +1,50 @@
+@import '../sasscomponent/variable.scss';
+footer{
+    padding: 80px 30px;
+    background-color: $secondary-color;
+    color: $text-color;
+    >.row{
+        >div{
+            margin-bottom: 10px;
+        }
+    }
+    .logo{
+        a{
+            text-decoration: none;
+            p{
+                color: $text-color;
+                span{
+                    color: $main-color;
+                }
+            }
+        }
+    }
+    ul{
+        li{
+            list-style: none;
+            padding: 10px 0px;
+            span{
+                margin-left: 15px;
+                font-size: 20px;
+                color: $main-color;
+            }
+            a{
+                text-decoration: none;
+                color: $text-color;
+                font-size: 15px;
+                &:hover{
+                    color: $main-color;
+                }
+            }
+        }
+    }
+    .map{
+        width: 100%;
+        iframe{
+            width: 100%;
+        }
+    }
+}
+.icon-svg--footer-logo{
+    
+}

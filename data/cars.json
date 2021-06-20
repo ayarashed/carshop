@@ -1,0 +1,82 @@
+{
+    "carsForSell": [
+      {
+        "imgsrc": "https://media.hatla2eestatic.com/uploads/ncarmodel/6944/thumbnail-up_284a2db7f29fcc5b9f2e61b8c2cbcf7e.jpg",
+        "name": "شيرى اريزو 2021",
+        "model": "2012",
+        "id": 1,
+        "category": "فئة ثانية",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]
+      },
+      {
+        "imgsrc": "https://media.hatla2eestatic.com/uploads/ncarmodel/7168/thumbnail-up_9cd68cab730df9cbe499ff71ac557d83.jpg",
+        "name": "إكسباندر",
+        "model": "2017",
+        "id": 2,
+        "category": "فئة اولى",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]
+      },
+      {
+        "imgsrc": "https://media.hatla2eestatic.com/uploads/ncarmodel/7417/thumbnail-up_2fa7133c19a907faee746c2ca939dfb3.png",
+        "name": "بي ام دبليو 52",
+        "model": "2003",
+        "id": 3,
+        "category": "فئة تالتة",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]
+      },
+      {
+        "imgsrc": "https://media.hatla2eestatic.com/uploads/ncarmodel/6847/thumbnail-up_647e0d34308eb1927e6e356ef41f06c5.png",
+        "name": "شيرى اريزو 2021",
+        "model": "2020",
+        "id": 4,
+        "category": "فئة اولى",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]
+      },
+      {
+        "imgsrc": "https://media.hatla2eestatic.com/uploads/ncarmodel/7783/thumbnail-up_968252fe96cec4aecb487f2223c10b06.png",
+        "name": "شيرى اريزو 2021",
+        "model": "2008",
+        "id": 5,
+        "category": "فئة تانية",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]
+      },
+      {
+        "imgsrc": "https://media.hatla2eestatic.com/uploads/ncarmodel/6706/thumbnail-up_92adb58464fb1931a7338243c9800af5.png",
+        "name": "شيرى اريزو 2021",
+        "model": "2019",
+        "id": 6,
+        "category": "فئة اولى",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]
+      }
+    ]
+  }

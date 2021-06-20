@@ -1,0 +1,278 @@
+@import './button.scss';
+@import '../sasscomponent/variable.scss';
+.carousel{
+    .carousel-inner{
+        .carousel-item{
+            .carousel-caption{
+                a{
+                    @extend %a;
+                }
+            }
+        }
+    }
+}/************end css of slider*****/
+
+.home{
+    .home__slider{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .slider-text{
+            position: absolute;
+            height: 100%;
+            left: 0;
+            top: 0;
+            color: $text-color;
+            width: 100%;
+            z-index: 99999;
+            background-color: rgba(0,0,0,0.4);
+            >div{
+                width: 50%;
+                margin: auto;
+                text-align: center;
+                position: relative;
+                top: 90%;
+                transform: translateY(-90%);
+            }
+            a{
+                text-decoration: none;
+                @extend %a;
+            }
+            @media screen and (min-width:320px) and (max-width:480px) {
+                display: none;
+            }
+        }
+    }
+    .contact-form{
+        button{ 
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: #262626;
+                color: $text-color;
+                border-color: $text-color;
+            }
+        }
+    }
+}
+.test-car{
+    margin-top: 50px;
+    @media screen and (max-width:768px) {
+       margin-top: 0px;
+    }
+}
+.services{
+    .services__rent , .services__sell{
+        position: relative;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+        @media screen  and(min-width:481px) and (max-width:768px){
+            margin-bottom: 20px;
+        }
+        margin-bottom: 20px;
+        &:hover{
+            .services__rent__details{
+                background-color: rgba(0,0,0,0.8);
+            }
+        }
+        .swiper-slide{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .services__rent__details{
+            transition: all 0.5s ease-in-out;
+            position: absolute;
+            bottom: 0;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            z-index: 99999;
+            background-color: rgba(0,0,0,0.4);
+            color: $text-color;
+            p{
+                font-size: 18px;
+                margin-top: 30px;
+                @media screen and (min-width:320px) and (max-width:480px) {
+                    margin-top: 5px;
+                    font-size: 14px!important;
+                    margin-bottom: 0px;
+                }
+            }
+            >div{
+                position: relative;
+                top: 90%;
+                width: 70%;
+                margin-right: 50px;
+                transform: translateY(-90%);
+                @media screen and (min-width:320px) and (max-width:480px) {
+                    top: 0;
+                    width: 100%;
+                    padding: 15px;
+                    transform: translateY(0px);
+                    margin-right: 0px;
+                }
+
+            }
+
+        }
+        a{
+            @extend %a;
+        }
+    }
+    ul{
+        list-style: none;
+        padding-inline-start: 0px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+}
+.who-we-are{
+    margin: 100px 0px;
+    position: relative;
+    //height: 400px;
+    overflow: hidden;
+    .who-we-are__img{
+        position: relative;
+        height: 400px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .who-we-are__info{
+        text-align: center;
+        padding: 0px 100px;
+        margin: 80px 0px;
+        @media screen and (min-width:320px) and (max-width:480px) {
+            padding: 0px 10px;
+        }
+    }
+    .choos-us-header{
+        margin: 50px 0px;
+    }
+
+}
+.contact-us{
+    background-color: $secondary-color;
+    .contact-us__background{
+        background-color: rgba(64, 64, 64,0.6);
+        
+    padding: 50px;
+    }
+    .contact-us__info{
+        color: $text-color;
+        >div{
+            margin-top: 50px;
+            ul{
+                padding-inline-start: 0px;
+                li{
+                    margin: 20px 0px;
+                    list-style: none;
+                    span{
+                        margin-left: 20px;
+                        font-size: 30px;
+                        color: $main-color;
+                    }
+                    a{
+                        font-size: 25px;
+                        text-decoration: none;
+                        color: $text-color;
+                    }
+                    @media screen and (max-width: 1024px) {
+                        a{
+                            font-size: 20px;
+                        }
+                        span{
+                            font-size: 25px;
+                        }
+                    }
+                    @media screen and (min-width:320px) and (max-width:480px) {
+                        a{
+                            font-size: 15px;
+                        }
+                        span{
+                            font-size: 20px;
+                            margin-left: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+.contact-form{
+    width: 90%;
+    margin: auto;
+    .form-control{
+        border-radius: 0;
+        border: none;
+    }
+    label{
+        color: $text-color;
+    }
+    button{
+        @extend %a;
+        &:hover{
+            background-color: rgba(0,0,0,0);
+        }
+    }
+    textarea{
+        resize: none;
+    }
+}
+.brands{
+    margin: 100px 0px;
+    h3{
+        color: #262626;
+        margin-bottom: 50px;
+    }
+    ul{
+        li{
+            list-style: none;
+            text-align: center;
+            border: 1px solid rgb(239, 240, 241);
+            box-shadow: rgb(0 0 0 / 9%) 0px 0px 0.875rem 0px;
+            height: auto;
+            img{
+                margin-top:10px ;
+            }
+        }
+    }
+}
+
+.choos-us{
+    text-align: center;
+    .choos-us-icon{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+        img{
+            border-radius: 50%; 
+
+        }
+        @media screen and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    p{
+        font-size: 14px!important;
+    }
+    h3{
+        font-size: 18px!important;
+    }
+}
+button{
+    &:focus{
+        box-shadow: none;
+    }
+}
+
+.sr-only{
+    display: none;
+}

@@ -1,0 +1,43 @@
+@import '../sasscomponent/variable.scss';
+.btn__background{
+    background-color: $main-color!important;
+    color: $text-color !important;
+    border-color:$text-color !important;
+    padding: 10px 30px!important;
+    transition: all 0.3s ease-in-out!important;
+    &:hover{
+        background-color: $text-color!important;
+        border-color: $main-color!important;
+        color: $main-color!important;
+    }
+}
+.modal{
+    z-index: 9999999999999999999999!important;
+    ul{
+        li{
+            span{
+                margin-left: 10px;
+                color: $main-color;
+                font-size: 20px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 15px;
+                color: $secondary-color;
+            }
+        }
+    }
+    .modal-header{
+        border: none;
+        .close{
+            display: none;
+        }
+    }
+    .modal-footer{
+        border: none;
+    }
+
+}
+.modal-backdrop{
+    z-index: 999999999999999999!important;
+}

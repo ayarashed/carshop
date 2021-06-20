@@ -1,0 +1,88 @@
+{
+    "carsForrent": [
+      {
+        "imgsrc": "https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqNWFqtyO67PobzIr3eWsrrCsdRRzwQZQ9vZbMw3SGtle9tsd2cxcUfN%25yXGEjy2J0lVohOB2KBObApvAVI5uOo2QC3bsOkzN4Udm7jgOIhKVBSQ%25vqA8TyLR5i2Yax4NYrH1gObnMr%25E2fM5I5uemYQC3PS9kzN5P6m7jCGohKVzpW%25vqE3yyLRacXYaxH0ErH18Bin8wiAboiZ4kEM4FgTrTg735wrcldu63eoum9F9Q6DF1ssfjcVWyDVS%25qjuauQFQ0ZzKG1BZeEsVnDV&imgt=P27&bkgnd=9&pov=BE140&im=Crop,rect=(290,250,1280,580);Resize,width=250",
+        "name": "شيرى اريزو 2021",
+        "model": "2012",
+        "id": 1,
+        "category": "فئة ثانية",
+        "price" : " ايجارها لليوم 1200",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]
+      },
+      {
+        "imgsrc": "https://www.mitsubishimotors-eg.com/content/dam/mitsubishi-motors/images/cars/xpander/2020/primary/hero/W81_Xpander.png?width=480&quality=70",
+        "name": "إكسباندر",
+        "model": "2017",
+        "id": 2,
+        "category": "فئة اولى",
+        "price" : " ايجارها لليوم 600",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]}
+      ,
+      {
+        "imgsrc": "https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqXWFqtyO35PobzIExXrItvsTQKkojUfGoo7GE11KFm9mWa9Q6FjcBXB%25uXGEAaVJ0l3YNOB2NBEbApjTlI5uVcxQC3qX3kzNRLNm7jZ6ShKVFSR%25vq9rdyLRDO6YaxWbErH1dj%25n8wfV3oiZL5XM4FaCwTg9Ht26PD8csSeWinjtsd4cVcUfC81XGEzbdJ0l7OVOB2KbjbApJPXI5u84IQC3igFkzN4LZm7j06ohKVBsV%25vqAr9yLR5QHYaxC4YrH1qJdn8wR84oiZx5NM4F1RJTg9wxZ6PDGkbSeW0yItsdBY%25cUfAFcXGE5YrJbXSqxVb8n8wzofoiZAiXM4Fz2rHbQWpn8YdBuoirfT3M4n5ANTg79wj6PKDPVSetWFqtsctCRcUXcjxXGJXO1J0OMawOBbevZbAIFxFITin0xdL789ikC8y5n5u9CAGmmKgdPzqCPDVeg8c8uAuyBM6%25GYBkvmP1CP&imgt=P27&bkgnd=9&pov=BE040&im=Crop,rect=(360,250,1280,580);Resize,width=250",
+        "name": "بي ام دبليو 52",
+        "model": "2003",
+        "id": 3,
+        "category": "فئة تالتة",
+        "price" : " ايجارها لليوم 900",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]}
+      ,
+      {
+        "imgsrc": "https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXq7JhqtyO67PobzIr3eWsrrCsdRRzwQZUOBJGE1UHFm9hNF9QC%25NjDd9wig8dSVSeJdfqxVz4cR1qIhvxXGmXY1J0hj0wOB%25xfZbAy1ZFI5Yw59QCrswDkznXpWm7vmjdhKLh%25f%25va2rEyLHCylYa8Dr2rHiKfpn84BBuoigAT3M4ahQNTgH%25tj6P8HZVSei8cqts4ifRcUgEUxXGPbW1J0eeawOBT2vZbA6b8FI5SIk9QCtTHDkzcDjWm7pJWdhKlRGf%25v2xREyLpnjlYaull2rH3d0pn8NtBuoiQ9l3M4k99NTgmfwj6PhEPVSe%25lcqtsyWNRcUYdUxXGrfl1J0Vy0wOBqsfZbAas0v0lYOlBB2rb23ApnB435uoA4aC3M5gBzNTCzP7j65j6KVSCVsvqtz5tLRcxCLaxX1qeH1JwSJ8wOrN8iZbnj94FIoeIg9QMESPDkTPAeWm6fosdhmdEUf%25hfJGEy%25xa0lYykYB2rYetApnCkc5uozNaC3MeKMzNTsqz7j6rjWKVSnddvqtoWULRl%25d6ziQOha%255YE8sVcUaXtTwwbYirJ5XrHAnYh3hUtU9SE2FTDS1Iwr7Xr&imgt=P27&bkgnd=9&pov=BE090&im=Crop,rect=(280,280,1350,520);Resize,width=250",
+        "name": "شيرى اريزو 2021",
+        "model": "2020",
+        "id": 4,
+        "category": "فئة اولى",
+        "price" : " ايجارها لليوم 2000",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]}
+      ,
+      {
+        "imgsrc": "https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqNEFqtyO67PobzIr3eWsrrCsdRRzwQZQ9vZbMw3SGtle9tsd2cDcUfpAWXGEjyYJ0lVYpOB2qM%25bApRTwI5uG4YQC30h1kzNHTKm7j871hKVi%25F%25vqmBkyLRsAXYaxUoWrH1Gm%25n8w0h4oiZKbXM4FvyMTg9LYe6PDG%25mSeW0h%25tXSMNV3XLyLR0OEYaxv0JrH1LCtn8waV2oiZ3RGM4FgIrTg9Pzn6PDe7sSeWsKhtsLV79MOuljcVGDzbdWdhcfWF002ROxEnfxXr1RjijhWh5DvaAFCDGp0xTfx&imgt=P27&bkgnd=9&pov=BE090,DZO&im=Crop,rect=(170,250,1530,580);Resize,width=250",
+        "name": "شيرى اريزو 2021",
+        "model": "2008",
+        "id": 5,
+        "category": "فئة تانية",
+        "price" : " ايجارها لليوم 1500",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]}
+      ,
+      {
+        "imgsrc": "https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXq7JhqtyO67PobzIr3eWsrrCsdRRzwQZUOBJGE1UHFm9hNF9QC%25NjDd9wig8dSVSeJdfqxVz4cR1qIhvxXGmXY1J0hj0wOB%25xfZbAy1ZFI5Yw59QCrswDkznXpWm7vmjdhKLh%25f%25va2rEyLHCylYa8Dr2rHiKfpn84BBuoigAT3M4ahQNTgH%25tj6P8HZVSei8cqts4ifRcUgEUxXGPbW1J0eeawOBT2vZbA6b8FI5SIk9QCtTHDkzcDjWm7pJWdhKlRGf%25v2xREyLpnjlYaull2rH3d0pn8NtBuoiQ9l3M4k99NTgmfwj6PhEPVSe%25lcqtsyWNRcUYdUxXGrfl1J0Vy0wOBqsfZbAas0v0lYOlBB2rb23ApnB435uoA4aC3M5gBzNTCzP7j65j6KVSCVsvqtz5tLRcxCLaxX1qeH1JwSJ8wOrN8iZbnj94FIoeIg9QMESPDkTPAeWm6fosdhmdEUf%25hfJGEy%25xa0lYykYB2rYetApnCkc5uozNaC3MeKMzNTsqz7j6rjWKVSnddvqtoWULRl%25d6ziQOha%255YE8sVcUaXtTwwbYirJ5XrHAnYh3hUtU9SE2FTDS1Iwr7Xr&imgt=P27&bkgnd=9&pov=BE090&im=Crop,rect=(280,280,1350,520);Resize,width=250",
+        "name": "شيرى اريزو 2021",
+        "model": "2019",
+        "id": 6,
+        "category": "فئة اولى",
+        "price" : " ايجارها لليوم 1800",
+        "colors":["red" , "black" , "blue" , "silver"],
+        "smallsrc":[
+          "https://www.mgcars.com/storage/upload/car_type/15/69386cec165483a42e5f01fb815136d3.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/571f521598ac47ef7cd326406e271ede.png",
+          "https://www.mgcars.com/storage/upload/car_type/15/4428012f05cf6dbbd53a30fe441c22f4.png"
+        ]
+      }
+    ]
+  }
